@@ -16,7 +16,7 @@ const HeaderTwo = () => {
           className="hover:text-green-500"
           onClick={() => i18n.changeLanguage("ar")}
         >
-          Arabic
+          Hindi
         </button>
       </div>
     </div>

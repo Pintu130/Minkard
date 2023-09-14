@@ -1,20 +1,27 @@
 import React from "react";
 import logo from "../images/logo.png";
+import Logo99 from "../images/Logo99.png";
+
 import AnimatePage from "../animation/AnimatePage";
+import { useNavigate } from "react-router";
 
 const Footer = () => {
+  const navigate = useNavigate();
   return (
     <AnimatePage>
     <footer className="p-4 bg-slate-200 sm:p-6 dark:bg-gray-900 shadow-md mt-14">
       <div className="md:flex md:justify-between">
-        <div className="mb-6 md:mb-0">
+        {/* <div className="mb-6 md:mb-0">
           <a href="/*" className="flex items-center">
             <img src={logo} className="h-8 mr-3" alt="FlowBite Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Med Store
             </span>
           </a>
-        </div>
+        </div> */}
+         <div className="w-40 border-none cursor-pointer">
+        <img src={Logo99} alt="" className='' onClick={() => navigate("/")} />
+      </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
           <div>
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
@@ -57,7 +64,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://vivacode.dev/"
+                  href="https://pin2sharma.netlify.app"
                   className="hover:underline"
                   target="blank"
                 >
@@ -90,11 +97,11 @@ const Footer = () => {
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2023{" "}
           <a
-            href="https://vivacode.dev/"
+            href="https://pin2sharma.netlify.app"
             className="hover:underline"
             target="blank"
           >
-            med Dakir
+            Minkard
           </a>
           . All Rights Reserved.
         </span>
@@ -136,7 +143,7 @@ const Footer = () => {
             <span className="sr-only">Instagram page</span>
           </a>
           <a
-            href="https://twitter.com/SimoDakir5"
+            href="/"
             target='blank'
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
@@ -151,7 +158,7 @@ const Footer = () => {
             <span className="sr-only">Twitter page</span>
           </a>
           <a
-            href="https://github.com/med134"
+            href="https://github.com/Pintu130"
             target='blank'
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >
@@ -170,7 +177,7 @@ const Footer = () => {
             <span className="sr-only">GitHub account</span>
           </a>
           <a
-            href="https://dribbble.com/jhon12"
+            href="/"
             target='blank'
             className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
           >

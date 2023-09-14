@@ -119,9 +119,9 @@ export default function Home() {
 
                       <div className="text-left">
                         <p className="inline-block text-xs font-semibold sm:text-sm md:text-base">
-                          {item.price} {t("MAD")}
+                          {item.price} {t("$")}
                           <del className="block text-xs text-blue-400">
-                            {item.lastPrice} {t("MAD")}
+                            {item.lastPrice} {t("$")}
                           </del>
                         </p>
                       </div>

@@ -53,7 +53,7 @@ const Confirmation = () => {
                 <div>
                   <h4 className="text-2xl font-medium">
                     {item.price}
-                    <sup className="text-sm text-blue-400"> {t("MAD")} </sup>
+                    <sup className="text-sm text-blue-400"> {t("$")} </sup>
                   </h4>
                 </div>
                 <div className="w-full flex justify-between mt-2">
@@ -97,7 +97,7 @@ const Confirmation = () => {
                   {t("total")}
                 </p>
                 <p className="text-sm text-gray-800 font-semibold">
-                  {totalPrice} {t("MAD")}
+                  {totalPrice} {t("$")}
                 </p>
               </div>
             </div>

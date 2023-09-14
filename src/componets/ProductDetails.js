@@ -13,7 +13,7 @@ import AnimatePage from "../animation/AnimatePage";
 
 export const ProductDetails = () => {
   const { product } = useSelector((state) => state.allCart);
-  console.log("product list", product);
+  // console.log("product list", product);
   const dispatch = useDispatch();
   const { t, i18n } = useTranslation();
   const navigate = useNavigate();
@@ -51,7 +51,7 @@ export const ProductDetails = () => {
                   <p className="text-gray-500 text-sm">
                     By{" "}
                     <a href="/" className="text-blue-500 hover:underline">
-                      Med Store
+                     Minkard
                     </a>
                   </p>
                   <div className="flex items-center space-x-4 my-4">
@@ -62,7 +62,7 @@ export const ProductDetails = () => {
                         </span>
 
                         <span className="text-indigo-400 mr-1 mt-1">
-                          {t("MAD")}
+                          {t ("$")}
                         </span>
                       </div>
                     </div>

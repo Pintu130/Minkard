@@ -49,7 +49,7 @@ function Header() {
     
     <nav className="bg-blue-50" onClick={()=>open && setOpen(false)}>
       <input id="nav-toggle" type="checkbox" />
-      <div className="w-40 border-none">
+      <div className="w-40 border-none cursor-pointer">
         <img src={Logo99} alt="" className='' onClick={() => navigate("/")} />
       </div>
       <ul className="">

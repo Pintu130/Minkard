@@ -73,7 +73,7 @@ function Contact() {
             ></div>
             <div className="container text-gray-800 px-4 md:px-12">
               <div
-                className="block rounded-lg shadow-lg py-10 md:py-12 px-4 md:px-6"
+                className="block rounded-lg shadow-lg border-2 py-10 md:py-12 px-4 md:px-6"
                 style={{
                   marginTop: "-100px",
                   background: "hsla(0, 0%, 100%, 0.8)",
@@ -83,7 +83,7 @@ function Contact() {
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-6">
                   <div className="lg:mb-0 text-center mx-auto">
                     <a
-                      href="https://goo.gl/maps/oevpwbCtZ7inta9M7"
+                      href="https://www.bing.com/maps?q=bharuch&FORM=HDRSC6&cp=21.723484%7E73.005681&lvl=13.0"
                       target="blank"
                     >
                       <svg
@@ -98,11 +98,11 @@ function Contact() {
                         />
                       </svg>
                     </a>
-                    <h6 className="font-medium">Morooco</h6>
+                    <h6 className="font-medium">Bharuch,Gujarat,India</h6>
                   </div>
                   <div className="lg:mb-0 text-center mx-auto">
                     <a
-                      href="https://goo.gl/maps/wyQheAJise1i9MTs5"
+                      href="https://www.bing.com/maps?q=bharuch+zadeshwar&FORM=HDRSC6&cp=21.719456%7E73.035511&lvl=14.8"
                       target="blank"
                     >
                       <svg
@@ -116,10 +116,10 @@ function Contact() {
                         />
                       </svg>
                     </a>
-                    <h6 className="font-medium">Benguerir, 43150</h6>
+                    <h6 className="font-medium">Bharuch, Zadeshwar-392001</h6>
                   </div>
                   <div className="mb-6 md:mb-0 text-center mx-auto">
-                    <a href="tel: +212600462196">
+                    <a href="tel: +91 9104577267">
                       <svg
                         className="w-8 h-8 text-blue-500 mb-6 mx-auto cursor-pointer"
                         xmlns="http://www.w3.org/2000/svg"
@@ -131,7 +131,7 @@ function Contact() {
                         />
                       </svg>
                     </a>
-                    <h6 className="font-medium">+ 212 00 46 21 96</h6>
+                    <h6 className="font-medium">+91 9104577267</h6>
                   </div>
                 </div>
                 <div className="max-w-[700px] mx-auto">
