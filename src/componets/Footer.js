@@ -55,8 +55,8 @@ const Footer = () => {
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-4">
                 <a
-                  href="https://github.com/med134"
-                  className="hover:underline "
+                  href="https://github.com/Pintu130/"
+                  className="hover:underline"
                   target="blank"
                 >
                   Github
